@@ -1,0 +1,16 @@
+.content {
+  &__card {
+    width: 10vh;
+    height: 10vh;
+
+    &_red {
+      background-color: red;
+    }
+    &_green {
+      background-color: green;
+    }
+    &_blue {
+      background-color: blue;
+    }
+  }
+}

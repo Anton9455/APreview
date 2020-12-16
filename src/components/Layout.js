@@ -1,12 +1,15 @@
 import Content from "./Content";
 import Sidebar from "./Sidebar";
 import "../scss/layout.scss";
+import { BrowserRouter } from "react-router-dom";
 
 function Layout() {
   return (
     <div className="layout-container">
-      <Sidebar />
-      <Content />
+      <BrowserRouter>
+        <Sidebar />
+        <Content />
+      </BrowserRouter>
     </div>
   );
 }
