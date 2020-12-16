@@ -1,7 +1,8 @@
 .content {
   &__card {
-    width: 10vh;
-    height: 10vh;
+    width: 100vh;
+    height: 50vh;
+    margin: auto;
 
     &_red {
       background-color: red;

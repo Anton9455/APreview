@@ -9,4 +9,12 @@
     rgba(209, 244, 255, 1) 0%,
     rgba(244, 252, 255, 1) 100%
   );
+
+  &__nav {
+    margin: auto;
+  }
+
+  &__item {
+    padding: 1em;
+  }
 }

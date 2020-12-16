@@ -4,15 +4,15 @@ import "../scss/sidebar.scss";
 function Sidebar() {
   return (
     <div className="layout-container__sidebar sidebar">
-      <nav>
-        <div>
+      <nav className="layout-container__nav sidebar__nav">
+        <div className="sidebar__item">
           <NavLink to="/red">Красный</NavLink>
         </div>
-        <div>
+        <div className="sidebar__item">
           <NavLink to="/green">Зеленый</NavLink>
         </div>
-        <div>
-          <NavLink to="/blue">Голубой</NavLink>
+        <div className="sidebar__item">
+          <NavLink to="/blue">Синий</NavLink>
         </div>
       </nav>
     </div>
