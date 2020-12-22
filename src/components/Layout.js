@@ -9,6 +9,7 @@ function Layout() {
       <BrowserRouter>
         <Sidebar />
         <Content />
+        <Sidebar isHistory={true} />
       </BrowserRouter>
     </div>
   );

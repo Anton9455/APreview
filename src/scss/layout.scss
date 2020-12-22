@@ -1,3 +1,24 @@
 .layout-container {
   display: flex;
+  
+  &__sidebar {
+    &_right {
+      .sidebar {
+        &__item {
+          div {
+            cursor: pointer;
+            &[data-href$="red"]:hover {
+              color: red;
+            }
+            &[data-href$="green"]:hover {
+              color: green;
+            }
+            &[data-href$="blue"]:hover {
+              color: blue;
+            }
+          }
+        }
+      }
+    }
+  }
 }
